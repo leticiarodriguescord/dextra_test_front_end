@@ -1,0 +1,33 @@
+.details-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.details-container-content {
+  width: 100%;
+  max-width: 350px;
+  margin: 50px;
+  margin-top: 20px;
+}
+.thumbnail{
+  display: flex;
+}
+.title{
+  font-size: 25px !important;
+}
+img{
+  width: 180px !important;
+  height: 250px !important;
+  margin: 5px !important;
+}
+.header{
+  background: #EC1D24 !important;
+  color: #f0f0f5 !important;
+  justify-content: space-between;
+  font-size: 25px !important;
+}

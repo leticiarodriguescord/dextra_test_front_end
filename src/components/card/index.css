@@ -1,0 +1,30 @@
+.comic-content{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin-top: 10px;
+
+}
+.item-comic-content{
+  display: grid;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.3rem;
+  margin: 0;
+  height: 310px;
+  margin: 1px;
+}
+.ant-card-cover img {
+  width: 125px !important;
+  height: 200px !important;
+}
+.ant-card .ant-card-bordered .ant-card-hoverable{
+  width: 130px;
+}
+.ant-card-cover{
+  width: 130px;
+}
+.ant-card-body{
+  width: 130px;
+}
